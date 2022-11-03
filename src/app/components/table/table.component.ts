@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, Output } from '@angular/core';
-// import * as data from '../../../data.json';
 import { take } from 'rxjs';
 
 @Component({
