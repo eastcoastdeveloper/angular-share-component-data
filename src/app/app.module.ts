@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { ChartsModule } from 'ng2-charts';
 import { TableComponent } from './components/table/table.component';
-import { DoughnutComponent } from './components/doughnut/doughnut.component';
 import { AreachartComponent } from './components/area-chart/area-chart.component';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -15,7 +14,6 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     TableComponent,
-    DoughnutComponent,
     AreachartComponent,
   ],
   bootstrap: [AppComponent],
