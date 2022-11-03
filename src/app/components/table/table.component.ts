@@ -8,10 +8,16 @@ import { take } from 'rxjs';
   styleUrls: ['./table.component.scss'],
 })
 export class TableComponent {
-  // data: any = data;
   dataArray: any = [];
   p: any;
-  currentElement: object = {};
+  currentElement: object = {
+    year: '',
+    make: '',
+    areaChartData: [1234],
+    index: 0,
+    model: '',
+  };
+
   @Output() tableRowClick = new EventEmitter<MouseEvent>();
 
   constructor(private _http: HttpClient) {
