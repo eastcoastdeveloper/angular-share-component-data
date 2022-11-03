@@ -1,0 +1,177 @@
+[
+  {
+    "year": "1967",
+    "make": "Pontiac",
+    "areaChartData": [32450, 75352, 87550, 100000],
+    "index": 0,
+    "model": "GTO"
+  },
+  {
+    "year": "1967",
+    "make": "Pontiac",
+    "areaChartData": [42450, 85352, 97550, 130000],
+    "index": 1,
+    "model": "Firebird"
+  },
+  {
+    "year": "1967",
+    "make": "Chevrolet",
+    "areaChartData": [32450, 47123, 52467, 66000],
+    "index": 2,
+    "model": "Malibu SS 396"
+  },
+  {
+    "year": "1967",
+    "make": "Chevrolet",
+    "areaChartData": [12000, 30000, 25000, 44000],
+    "index": 3,
+    "model": "Camaro SS"
+  },
+  {
+    "year": "1967",
+    "make": "Chevrolet",
+    "areaChartData": [42450, 55352, 57550, 65000],
+    "index": 4,
+    "model": "Camaro Z/28"
+  },
+  {
+    "year": "1967",
+    "make": "Chevrolet",
+    "areaChartData": [42450, 45352, 57550, 77000],
+    "index": 5,
+    "model": "RS"
+  },
+  {
+    "year": "1967",
+    "make": "Chevrolet",
+    "areaChartData": [42450, 55352, 67550, 75000],
+    "index": 6,
+    "model": "Nova SS"
+  },
+  {
+    "year": "1967",
+    "make": "Oldsmobile",
+    "areaChartData": [42450, 51352, 55550, 64000],
+    "index": 7,
+    "model": "442"
+  },
+  {
+    "year": "1967",
+    "make": "Buick",
+    "areaChartData": [22450, 34352, 44550, 55000],
+    "index": 8,
+    "model": "Gran Sport"
+  },
+  {
+    "year": "1967",
+    "make": "Ford",
+    "areaChartData": [33000, 55000, 65000, 80000],
+    "index": 9,
+    "model": "Mustang GT"
+  },
+  {
+    "year": "1967",
+    "make": "Ford",
+    "areaChartData": [22450, 35352, 55000, 66509],
+    "index": 10,
+    "model": "Mustang GTA"
+  },
+  {
+    "year": "1967",
+    "make": "Ford",
+    "areaChartData": [46777, 47000, 55000, 66000],
+    "index": 11,
+    "model": "Fairlane GTA"
+  },
+  {
+    "year": "1967",
+    "make": "Shelby",
+    "areaChartData": [24897, 34908, 57009, 78000],
+    "index": 12,
+    "model": "Cobra"
+  },
+  {
+    "year": "1967",
+    "make": "Shebly",
+    "areaChartData": [26000, 34897, 45000, 79478],
+    "index": 13,
+    "model": "Mustang GT350"
+  },
+  {
+    "year": "1967",
+    "make": "Shelby",
+    "areaChartData": [22000, 37087, 45897, 74000],
+    "index": 14,
+    "model": "GT500"
+  },
+  {
+    "year": "1967",
+    "make": "Mercury",
+    "areaChartData": [39000, 45879, 87550, 47888],
+    "index": 15,
+    "model": "Cougar Special"
+  },
+  {
+    "year": "1967",
+    "make": "Mercury",
+    "areaChartData": [34000, 45987, 57876, 67898],
+    "index": 16,
+    "model": "Cyclone GT"
+  },
+  {
+    "year": "1967",
+    "make": "Mercury",
+    "areaChartData": [22000, 33987, 45879, 70123],
+    "index": 17,
+    "model": "427 Comet"
+  },
+  {
+    "year": "1967",
+    "make": "Plymouth",
+    "areaChartData": [19000, 43987, 35675, 73987],
+    "index": 18,
+    "model": "Barracudda Formula S"
+  },
+  {
+    "year": "1967",
+    "make": "Plymouth GTX",
+    "areaChartData": [18000, 43098, 37869, 67378],
+    "index": 19,
+    "model": "GTO"
+  },
+  {
+    "year": "1967",
+    "make": "Dodge",
+    "areaChartData": [34000, 75352, 87550, 69476],
+    "index": 20,
+    "model": "Dart GT"
+  },
+  {
+    "year": "1967",
+    "make": "Dodge Dart GTS",
+    "areaChartData": [23000, 34980, 67879, 47879],
+    "index": 21,
+    "model": "GTO"
+  },
+  {
+    "year": "1967",
+    "make": "Dodge",
+    "areaChartData": [45000, 34987, 67589, 90000],
+    "index": 22,
+    "model": "Charger"
+  },
+  {
+    "year": "1967",
+    "make": "Dodge",
+    "areaChartData": [24000, 78652, 63910, 38476],
+    "index": 23,
+    "model": "Coronet R/T"
+  },
+  {
+    "year": "1967",
+    "make": "Dodge",
+    "areaChartData": [12000, 34098, 87550, 87908],
+    "index": 24,
+    "model": "Coronet 500 Hemi"
+  }
+]

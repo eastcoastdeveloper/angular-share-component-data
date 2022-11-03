@@ -1,5 +1,7 @@
-import { Component, EventEmitter, Output, VERSION } from '@angular/core';
-import * as data from '../../../data.json';
+import { HttpClient } from '@angular/common/http';
+import { Component, EventEmitter, Output } from '@angular/core';
+// import * as data from '../../../data.json';
+import { take } from 'rxjs';
 
 @Component({
   selector: 'table-app',
@@ -7,18 +9,27 @@ import * as data from '../../../data.json';
   styleUrls: ['./table.component.scss'],
 })
 export class TableComponent {
-  data: any = data;
+  // data: any = data;
   dataArray: any = [];
   p: any;
   currentElement: object = {};
   @Output() tableRowClick = new EventEmitter<MouseEvent>();
 
-  constructor() {
-    for (let key in data.muscleCars) {
-      if (data.muscleCars.hasOwnProperty(key)) {
-        this.dataArray.push(data.muscleCars[key]);
-      }
-    }
+  constructor(private _http: HttpClient) {
+    this._http
+      .get('assets/data.json')
+      .pipe(take(1))
+      .subscribe({
+        next: (val) => {
+          this.dataArray = val;
+        },
+        error: (err) => {
+          console.log(err);
+        },
+        complete: () => {
+          console.log('finished');
+        },
+      });
     this.currentElement = this.dataArray[0];
   }
 

@@ -8,9 +8,10 @@ import { ChartsModule } from 'ng2-charts';
 import { TableComponent } from './components/table/table.component';
 import { DoughnutComponent } from './components/doughnut/doughnut.component';
 import { AreachartComponent } from './components/area-chart/area-chart.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, ChartsModule, NgxPaginationModule],
+  imports: [BrowserModule, FormsModule, ChartsModule, NgxPaginationModule, HttpClientModule],
   declarations: [
     AppComponent,
     TableComponent,
