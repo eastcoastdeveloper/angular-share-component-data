@@ -1,0 +1,28 @@
+<div id="table-component">
+  <p>Popular Muscle Cars</p>
+  <table>
+    <thead>
+      <tr>
+        <th class="pl-15">Year</th>
+        <th>Make</th>
+        <th>Model</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="
+          let car of dataArray | paginate: { itemsPerPage: 8, currentPage: p }
+        "
+        [ngClass]="{ 'active-row': currentElement === car }"
+        (click)="clickHandler(dataArray[car.index])"
+      >
+        <td class="pl-15">{{ car.year }}</td>
+        <td>{{ car.make }}</td>
+        <td>{{ car.model }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="pagination">
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+</div>
