@@ -10,12 +10,14 @@ import { AreachartComponent } from './components/area-chart/area-chart.component
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, ChartsModule, NgxPaginationModule, HttpClientModule],
-  declarations: [
-    AppComponent,
-    TableComponent,
-    AreachartComponent,
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ChartsModule,
+    NgxPaginationModule,
+    HttpClientModule,
   ],
+  declarations: [AppComponent, TableComponent, AreachartComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
