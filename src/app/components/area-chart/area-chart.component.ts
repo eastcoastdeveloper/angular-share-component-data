@@ -53,7 +53,6 @@ export class AreachartComponent {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log(changes);
 
     let obj = this.getObj,
       formattedObj: object = {};
